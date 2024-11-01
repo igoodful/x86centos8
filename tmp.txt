@@ -1,0 +1,34 @@
+echo "x86centos8" > /etc/hostname
+
+dnf -y install git vim
+
+dnf -y install autoconf automake binutils bison cmake cyrus-sasl-devel cyrus-sasl-scram gcc-c++ gcc-toolset-11 gcc-toolset-11-annobin-plugin-gcc krb5-devel libaio-devel libcurl-devel libtirpc-devel libudev-devel m4 make ncurses-devel numactl-devel openldap-devel openssl openssl-devel pam-devel readline-devel zlib-devel wget
+
+
+git clone https://github.com/mysql/mysql-server.git
+cd mysql-server
+git checkout mysql-8.0.32
+git status
+
+
+/etc/profile
+
+export LANG="en_US.UTF-8"
+export MYSQL_PS1="[\U:\p \R:\m:\s(\d)]$ "
+
+
+git config --global user.name "igoodful"
+git config --global user.email "igoodful@qq.com
+
+
+
+
+
+
+
+
+
+
+
+
+
