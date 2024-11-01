@@ -5,8 +5,7 @@ git config --global user.name "igoodful"
 git config --global user.email "igoodful@qq.com"
 
 
-dnf -y install autoconf automake binutils bison cmake cyrus-sasl-devel cyrus-sasl-scram gcc-c++ gcc-toolset-11 gcc-toolset-11-annobin-plugin-gcc krb5-devel libaio-devel libcurl-devel libtirpc-devel libudev-devel m4 make ncurses-devel numactl-devel openldap-devel openssl openssl-devel pam-devel readline-devel zlib-devel wget
-
+dnf -y install autoconf automake binutils bison cmake cyrus-sasl-devel cyrus-sasl-scram gcc-c++ gcc-toolset-11 gcc-toolset-11-annobin-plugin-gcc krb5-devel libaio-devel libcurl-devel libtirpc-devel libudev-devel m4 make ncurses-devel numactl-devel openldap-devel openssl openssl-devel pam-devel readline-devel zlib-devel wget bzip2 bzip2-devel
 
 /etc/profile
 
